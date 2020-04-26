@@ -63,7 +63,13 @@ const styles = StyleSheet.create({
   },
   button: {
     width:'40%',
-    borderWidth:1,
+    borderWidth:0,
+    shadowColor:'blue',
+    shadowOffset:{width:1, height:2},
+    shadowOpacity:.7,
+    shadowRadius:2,
+    elevation:1,
+    backgroundColor:'white',
   },
 });
 
